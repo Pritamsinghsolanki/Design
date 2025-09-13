@@ -1,0 +1,30 @@
+
+Requirements:
+
+Dynamic:
+1)Do we have fixed no. of snakes in our game(Dynamic)
+2)Do we have fixed no. of ladders in our game (Dynamic)
+3)Is the size of the board fixed( Dynamic )
+4)Is the game played between fixed no. of players? ( Dynamic)
+5)Is the no. of dice fixed ( Dynamic)
+
+Extensible:
+1) Should I assume that the game would just have snakes and ladder( yes)
+
+High Traffic:
+
+1)Do we need to build a system where multiple games are running simultaneously ( No )
+
+
+Entities:
+
+Snake
+Ladder
+Cell
+Board
+Player
+Dice
+Game
+Obstacle
+0ObstacleFactory
+ObstacleType
